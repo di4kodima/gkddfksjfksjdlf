@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    Print("06.07.2023")
     return f'My server IP address is {os.environ["HOST_IP"]}'
 
 if __name__ == '__main__':
